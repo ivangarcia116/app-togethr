@@ -1,0 +1,17 @@
+# --- Python / Django ---
+**/__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+
+# --- Entorno Virtual (Importante) ---
+# Esto ignorará cualquier carpeta llamada venv en cualquier nivel
+**/venv/
+
+# --- Node / Vue.js (Para el futuro) ---
+**/node_modules/
+**/dist/
+
+# --- IDEs ---
+.vscode/
+.idea/
